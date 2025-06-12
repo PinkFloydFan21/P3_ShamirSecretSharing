@@ -1,12 +1,17 @@
-# Proyecto3_ESCS
+# Proyecto 03, Shamir Secret Sharing
 
-Repositorio del proyecto 3 de Modelado y Programación
+Repositorio para el Proyecto 03 de Modelado y Programación.
+
+Prof. José Galaviz Casas.
+
+Este proyecto consiste en la implementación del Shamir Secret Sharing, quehace posible que un sólo dato pueda ser ocultado de manera que, a partir de él, se generan n diferentes datos y que con
+al menos t ≤ n cualesquiera de ellos sea posible recuperar el dato original.
 
 ## Integrantes
 
-+ Oscar Yahir Hernandez Garcia // no. de cuenta: 321052847  
-+ Said Apis Lorenzana // no. de cuenta: 321080550  
-+ Gerardo Gael Sandoval Sandoval  // no. de cuenta: 321073259  
++ Oscar Yahir Hernandez Garcia  
++ Said Apis Lorenzana
++ Gerardo Gael Sandoval Sandoval  
 
 ## Descripción
 
@@ -17,19 +22,19 @@ Proyecto desarrollado en python que implementa el método de interpolación de L
 
 Este proyecto utiliza las siguientes dependencias:
 
-- **cffi==1.17.1**: proporciona herramientas para interactuar con código C desde Python
-- **cryptography==41.0.3**: para implementar algoritmos criptográficos, como el cifrado y manejo de claves.
-- **iniconfig==2.0.0**: manejo y análisis de archivos de configuración en formato .ini.
-- **markdown-it-py==3.0.0**: herramienta para convertir texto en formato Markdown a HTML.
-- **mdurl==0.1.2**: biblioteca para analizar y trabajar con URLs.
-- **packaging==24.2**: permite analizar y manejar información sobre versiones de paquetes.
-- **pluggy==1.5.0**: facilita la creación de sistemas con extensiones o complementos.
-- **pycparser==2.22**: genera representaciones de código en C para bibliotecas como cryptography.
-- **Pygments==2.18.0**: usado para resaltar sintaxis en fragmentos de código.
-- **pytest==8.3.3**: marco de trabajo para ejecutar pruebas unitarias de forma eficiente.
-- **rich==13.9.4**: mejora la salida de texto en la terminal con colores, tablas y otros elementos enriquecidos.
-- **pip**: gestor de paquetes para instalar las demás dependencias.
-- **distutils**: para funciones auxiliares relacionadas con compilación y archivos.
+- **cffi==1.17.1**
+- **cryptography==41.0.3**
+- **iniconfig==2.0.0**
+- **markdown-it-py==3.0.0**
+- **mdurl==0.1.2**
+- **packaging==24.2**
+- **pluggy==1.5.0**
+- **pycparser==2.22**
+- **Pygments==2.18.0**
+- **pytest==8.3.3**
+- **rich==13.9.4**
+- **pip**
+- **distutils**
 
 Al correr el siguiente comando, se instalaran las dependencias necesarias y se correrá el programa:
 
