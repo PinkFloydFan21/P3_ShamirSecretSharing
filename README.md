@@ -4,8 +4,10 @@ Repositorio para el Proyecto 03 de Modelado y Programación.
 
 Prof. José Galaviz Casas.
 
-Este proyecto consiste en la implementación del Shamir Secret Sharing, quehace posible que un sólo dato pueda ser ocultado de manera que, a partir de él, se generan n diferentes datos y que con
-al menos t ≤ n cualesquiera de ellos sea posible recuperar el dato original.
+Este proyecto implementa Shamir Secret Sharing, un método criptográfico que permite dividir un secreto en n partes, de forma que solo se necesiten t de ellas para recuperarlo.
+
+Por ejemplo, puedes fragmentar la contraseña de un cohete nuclear en 5 partes, y requerir al menos 3 para activarlo. Con menos de 3, el secreto sigue siendo imposible de revelar.
+Ideal para proteger datos sensibles y distribuir la confianza entre varios miembos.
 
 ## Integrantes
 
@@ -15,7 +17,7 @@ al menos t ≤ n cualesquiera de ellos sea posible recuperar el dato original.
 
 ## Descripción
 
-Proyecto desarrollado en python que implementa el método de interpolación de Lagrange, cifrado por AES y SHA-256 para la codificación y decodificación de archivos, utilizando también el esquema del secreto de shamir para dividir y reconstruir datos de manera segura.
+Proyecto desarrollado en python que implementa el método de interpolación de Lagrange, cifrado por AES y SHA-256 para la codificación y decodificación de contraseñas, utilizando también el esquema del secreto de shamir para dividir y reconstruir datos de manera segura.
 
 
 ## Dependencias y ejecucion del programa
