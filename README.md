@@ -46,7 +46,7 @@ Proyecto desarrollado en python que implementa el método de interpolación de L
      - **pip**
      - **distutils**
      
-     Al correr el siguiente comando, se instalaran las dependencias necesarias y se correrá el programa:
+     Al correr el siguiente comando en tu terminal (dentro de P3_ShamirSecretSharing/), se instalaran las dependencias necesarias y se correrá el programa:
      
      ```bash
      python3 install.py
